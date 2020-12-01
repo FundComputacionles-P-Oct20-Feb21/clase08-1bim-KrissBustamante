@@ -7,3 +7,6 @@
 9.  Fin Mientras"
 10. << n
 11. Fin
+
+
+// se mostraria el valor de 2 y 3

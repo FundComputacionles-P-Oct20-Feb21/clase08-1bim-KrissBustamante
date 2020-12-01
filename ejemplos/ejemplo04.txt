@@ -4,7 +4,7 @@
 4.  valorDropbox, d[0,n]
 5.  valorSpotify, d[0,n]
 6.  valorTotal, d[0,n]
-7.  edad, i[0,n]
+7.  edad, i[0,n] <-- 20
 8.  descuento, d[0,n]
 9.  porcentaje, d[0,n]
 10. porcentaje <-- 20
@@ -19,6 +19,13 @@
 19. valorTotal = valorNetflix + valorYoutube + valorDropbox + valorSpotify
 20. Si edad < 30 entonces
 21.   descuento <-- (porcentaje * valorTotal)/100
-22. Fin si
-23. Escribir "El valor total a pagar es: " + valorTotal
-24. Fin
+22.   valortotal = valortotal - descuento
+23. Fin si
+24. Escribir "El valor total a pagar es: " + valorTotal
+25. Fin
+
+
+
+// los valores serian enteros y no decimales
+//faltaba de clarar la variable de edad
+// faltaba  una linea que nos permita dar el descuento si es menor a 30
